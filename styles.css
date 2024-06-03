@@ -1,0 +1,133 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #003366; 
+    color:  white;
+    padding: 1rem 0;
+}
+
+header .inicio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 2rem;
+}
+
+header h1 {
+    margin: 800;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+header .img2 {
+    margin-left: 20px;
+    background: white;
+}
+
+header .img2 img {
+    max-width: 60px; 
+    height: auto;
+    
+}
+
+section {
+    padding: 2rem 1rem;
+    background: #de7744;
+    margin: 1rem 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#home {
+    background-color: #006699; 
+    color: white;
+    text-align: center;
+}
+
+#home .container2 {
+    max-width: 800px;
+    margin: auto;
+}
+
+#home img {
+    max-width: 40%;
+    height: auto;
+    margin-top: 1rem;
+   
+}
+
+#about .frase, #schedule .programação, #contact .contato {
+    max-width: 800px;
+    margin: auto;
+}
+
+#schedule ul {
+    list-style: none;
+    padding: 0;
+}
+
+#schedule ul li {
+    background: #f4f4f4;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border-left: 5px solid #f4f4f4;
+}
+
+.social-icons {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.social-icons a {
+    color: #003366; 
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.social-icons a:hover {
+    color: #006699; 
+}
+
+footer {
+    background-color: #003366;
+    text-align: center;
+    padding: 1rem 0;
+    color: #f4f4f4;
+}
